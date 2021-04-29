@@ -12,11 +12,11 @@ hdfs dfs -copyFromLocal /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K
 
 Files explained:
 
-Terminal Output
-	- commands run to execute map reduce on terminal
-Centroids.txt
-	- started off as initial centroids and was updated each iteration. now it has the final centroid locations
-Centroids000000.txt
-	- randomly selected for datapoint from within the data that make up the initial centroid locations
-map_out_k8
-	- file containing cluster centroid updates for each of the 10 iterations
+- Terminal Output
+  - commands run to execute map reduce on terminal
+- Centroids.txt
+  - started off as initial centroids and was updated each iteration. now it has the final centroid locations
+-Centroids000000.txt
+  - randomly selected for datapoint from within the data that make up the initial centroid locations
+- map_out_k8
+  - file containing cluster centroid updates for each of the 10 iterations
