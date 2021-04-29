@@ -1,0 +1,845 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 (base) ~> /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/run.sh\
+2021-02-12 16:27:57,854 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:27:58,015 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar6070991345730799940/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob15209021352135647142.jar tmpDir=null\
+2021-02-12 16:27:59,009 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:27:59,208 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:27:59,560 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0082\
+2021-02-12 16:28:00,074 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:28:00,369 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:28:00,799 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0082\
+2021-02-12 16:28:00,799 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:28:01,013 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:28:01,013 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:28:01,142 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0082\
+2021-02-12 16:28:01,175 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0082/\
+2021-02-12 16:28:01,177 INFO mapreduce.Job: Running job: job_1612977878001_0082\
+2021-02-12 16:28:09,373 INFO mapreduce.Job: Job job_1612977878001_0082 running in uber mode : false\
+2021-02-12 16:28:09,374 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:28:26,540 INFO mapreduce.Job:  map 35% reduce 0%\
+2021-02-12 16:28:28,570 INFO mapreduce.Job:  map 51% reduce 0%\
+2021-02-12 16:28:38,665 INFO mapreduce.Job:  map 83% reduce 0%\
+2021-02-12 16:28:48,846 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:28:49,855 INFO mapreduce.Job:  map 100% reduce 47%\
+2021-02-12 16:28:55,922 INFO mapreduce.Job:  map 100% reduce 67%\
+2021-02-12 16:28:59,962 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:29:02,002 INFO mapreduce.Job: Job job_1612977878001_0082 completed successfully\
+2021-02-12 16:29:02,236 INFO mapreduce.Job: Counters: 51\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679244\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Killed map tasks=1\
+		Launched map tasks=3\
+		Launched reduce tasks=1\
+		Data-local map tasks=3\
+		Total time spent by all maps in occupied slots (ms)=72948\
+		Total time spent by all reduces in occupied slots (ms)=28919\
+		Total time spent by all map tasks (ms)=72948\
+		Total time spent by all reduce tasks (ms)=28919\
+		Total vcore-milliseconds taken by all map tasks=72948\
+		Total vcore-milliseconds taken by all reduce tasks=28919\
+		Total megabyte-milliseconds taken by all map tasks=74698752\
+		Total megabyte-milliseconds taken by all reduce tasks=29613056\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=121\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=540016640\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:29:02,237 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz1\
+2021-02-12 16:29:04,389 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:29:10,500 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:29:10,760 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar11491387293640089019/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob7666278867077763704.jar tmpDir=null\
+2021-02-12 16:29:12,577 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:29:12,894 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:29:14,371 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0083\
+2021-02-12 16:29:15,527 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:29:15,775 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:29:16,275 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0083\
+2021-02-12 16:29:16,275 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:29:16,538 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:29:16,538 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:29:16,660 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0083\
+2021-02-12 16:29:16,702 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0083/\
+2021-02-12 16:29:16,704 INFO mapreduce.Job: Running job: job_1612977878001_0083\
+2021-02-12 16:29:25,846 INFO mapreduce.Job: Job job_1612977878001_0083 running in uber mode : false\
+2021-02-12 16:29:25,847 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:29:45,094 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:29:48,142 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:30:03,308 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:30:04,325 INFO mapreduce.Job: Job job_1612977878001_0083 completed successfully\
+2021-02-12 16:30:04,420 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679241\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=40578\
+		Total time spent by all reduces in occupied slots (ms)=11914\
+		Total time spent by all map tasks (ms)=40578\
+		Total time spent by all reduce tasks (ms)=11914\
+		Total vcore-milliseconds taken by all map tasks=40578\
+		Total vcore-milliseconds taken by all reduce tasks=11914\
+		Total megabyte-milliseconds taken by all map tasks=41551872\
+		Total megabyte-milliseconds taken by all reduce tasks=12199936\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=107\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=535822336\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:30:04,429 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz2\
+2021-02-12 16:30:05,667 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:30:08,226 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:30:08,444 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar13818702631782756610/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob10711266734687160369.jar tmpDir=null\
+2021-02-12 16:30:09,749 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:30:10,146 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:30:10,555 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0084\
+2021-02-12 16:30:12,101 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:30:13,134 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:30:13,462 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0084\
+2021-02-12 16:30:13,463 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:30:13,647 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:30:13,648 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:30:13,722 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0084\
+2021-02-12 16:30:13,754 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0084/\
+2021-02-12 16:30:13,755 INFO mapreduce.Job: Running job: job_1612977878001_0084\
+2021-02-12 16:30:21,886 INFO mapreduce.Job: Job job_1612977878001_0084 running in uber mode : false\
+2021-02-12 16:30:21,888 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:30:46,715 INFO mapreduce.Job:  map 2% reduce 0%\
+2021-02-12 16:30:52,770 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:30:58,842 INFO mapreduce.Job:  map 83% reduce 0%\
+2021-02-12 16:30:59,852 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:31:11,955 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:31:13,989 INFO mapreduce.Job: Job job_1612977878001_0084 completed successfully\
+2021-02-12 16:31:14,096 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679244\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=68180\
+		Total time spent by all reduces in occupied slots (ms)=10235\
+		Total time spent by all map tasks (ms)=68180\
+		Total time spent by all reduce tasks (ms)=10235\
+		Total vcore-milliseconds taken by all map tasks=68180\
+		Total vcore-milliseconds taken by all reduce tasks=10235\
+		Total megabyte-milliseconds taken by all map tasks=69816320\
+		Total megabyte-milliseconds taken by all reduce tasks=10480640\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=90\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=538968064\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:31:14,096 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz3\
+2021-02-12 16:31:15,267 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:31:17,591 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:31:17,827 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar18318476156614439295/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob16294809664984870012.jar tmpDir=null\
+2021-02-12 16:31:19,127 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:31:19,402 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:31:19,668 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0085\
+2021-02-12 16:31:20,225 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:31:20,841 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:31:21,118 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0085\
+2021-02-12 16:31:21,118 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:31:21,340 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:31:21,340 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:31:21,436 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0085\
+2021-02-12 16:31:21,473 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0085/\
+2021-02-12 16:31:21,474 INFO mapreduce.Job: Running job: job_1612977878001_0085\
+2021-02-12 16:31:29,628 INFO mapreduce.Job: Job job_1612977878001_0085 running in uber mode : false\
+2021-02-12 16:31:29,629 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:31:47,899 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:31:53,956 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:32:06,071 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:32:07,092 INFO mapreduce.Job: Job job_1612977878001_0085 completed successfully\
+2021-02-12 16:32:07,174 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679244\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=44680\
+		Total time spent by all reduces in occupied slots (ms)=9620\
+		Total time spent by all map tasks (ms)=44680\
+		Total time spent by all reduce tasks (ms)=9620\
+		Total vcore-milliseconds taken by all map tasks=44680\
+		Total vcore-milliseconds taken by all reduce tasks=9620\
+		Total megabyte-milliseconds taken by all map tasks=45752320\
+		Total megabyte-milliseconds taken by all reduce tasks=9850880\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=94\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=531628032\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:32:07,174 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz4\
+2021-02-12 16:32:08,238 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:32:10,430 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:32:10,604 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar9284783768064689591/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob7326765577492349199.jar tmpDir=null\
+2021-02-12 16:32:11,655 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:32:11,872 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:32:12,147 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0086\
+2021-02-12 16:32:13,070 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:32:13,282 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:32:13,534 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0086\
+2021-02-12 16:32:13,534 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:32:13,739 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:32:13,740 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:32:13,810 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0086\
+2021-02-12 16:32:13,845 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0086/\
+2021-02-12 16:32:13,846 INFO mapreduce.Job: Running job: job_1612977878001_0086\
+2021-02-12 16:32:21,968 INFO mapreduce.Job: Job job_1612977878001_0086 running in uber mode : false\
+2021-02-12 16:32:21,969 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:32:39,148 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:32:41,186 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:32:53,296 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:32:53,306 INFO mapreduce.Job: Job job_1612977878001_0086 completed successfully\
+2021-02-12 16:32:53,381 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679241\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=35681\
+		Total time spent by all reduces in occupied slots (ms)=9434\
+		Total time spent by all map tasks (ms)=35681\
+		Total time spent by all reduce tasks (ms)=9434\
+		Total vcore-milliseconds taken by all map tasks=35681\
+		Total vcore-milliseconds taken by all reduce tasks=9434\
+		Total megabyte-milliseconds taken by all map tasks=36537344\
+		Total megabyte-milliseconds taken by all reduce tasks=9660416\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=87\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=537919488\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:32:53,382 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz5\
+2021-02-12 16:32:54,541 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:32:56,689 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:32:56,839 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar3305090389080228881/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob4108977780394923503.jar tmpDir=null\
+2021-02-12 16:32:57,862 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:32:58,103 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:32:58,421 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0087\
+2021-02-12 16:32:58,881 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:32:59,085 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:32:59,395 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0087\
+2021-02-12 16:32:59,395 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:32:59,573 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:32:59,573 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:32:59,641 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0087\
+2021-02-12 16:32:59,671 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0087/\
+2021-02-12 16:32:59,672 INFO mapreduce.Job: Running job: job_1612977878001_0087\
+2021-02-12 16:33:06,802 INFO mapreduce.Job: Job job_1612977878001_0087 running in uber mode : false\
+2021-02-12 16:33:06,803 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:33:25,044 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:33:27,073 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:33:39,162 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:33:40,182 INFO mapreduce.Job: Job job_1612977878001_0087 completed successfully\
+2021-02-12 16:33:40,254 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679241\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=35911\
+		Total time spent by all reduces in occupied slots (ms)=9873\
+		Total time spent by all map tasks (ms)=35911\
+		Total time spent by all reduce tasks (ms)=9873\
+		Total vcore-milliseconds taken by all map tasks=35911\
+		Total vcore-milliseconds taken by all reduce tasks=9873\
+		Total megabyte-milliseconds taken by all map tasks=36772864\
+		Total megabyte-milliseconds taken by all reduce tasks=10109952\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=93\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=533725184\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:33:40,254 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz6\
+2021-02-12 16:33:41,296 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:33:43,450 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:33:43,615 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar1792971194597379746/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob14209208882099470691.jar tmpDir=null\
+2021-02-12 16:33:44,650 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:33:44,856 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:33:45,111 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0088\
+2021-02-12 16:33:45,793 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:33:45,995 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:33:46,681 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0088\
+2021-02-12 16:33:46,681 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:33:46,851 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:33:46,852 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:33:46,924 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0088\
+2021-02-12 16:33:46,955 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0088/\
+2021-02-12 16:33:46,957 INFO mapreduce.Job: Running job: job_1612977878001_0088\
+2021-02-12 16:33:54,073 INFO mapreduce.Job: Job job_1612977878001_0088 running in uber mode : false\
+2021-02-12 16:33:54,074 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:34:12,258 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:34:14,283 INFO mapreduce.Job:  map 83% reduce 0%\
+2021-02-12 16:34:15,292 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:34:29,437 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:34:29,449 INFO mapreduce.Job: Job job_1612977878001_0088 completed successfully\
+2021-02-12 16:34:29,537 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679244\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=36575\
+		Total time spent by all reduces in occupied slots (ms)=11474\
+		Total time spent by all map tasks (ms)=36575\
+		Total time spent by all reduce tasks (ms)=11474\
+		Total vcore-milliseconds taken by all map tasks=36575\
+		Total vcore-milliseconds taken by all reduce tasks=11474\
+		Total megabyte-milliseconds taken by all map tasks=37452800\
+		Total megabyte-milliseconds taken by all reduce tasks=11749376\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=99\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=541065216\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:34:29,537 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz7\
+2021-02-12 16:34:30,644 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:34:33,080 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:34:33,284 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar4176963004106354313/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob18104899826778481616.jar tmpDir=null\
+2021-02-12 16:34:34,646 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:34:34,861 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:34:35,171 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0089\
+2021-02-12 16:34:35,747 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:34:35,948 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:34:36,261 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0089\
+2021-02-12 16:34:36,262 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:34:36,482 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:34:36,482 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:34:36,596 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0089\
+2021-02-12 16:34:36,650 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0089/\
+2021-02-12 16:34:36,652 INFO mapreduce.Job: Running job: job_1612977878001_0089\
+2021-02-12 16:34:43,766 INFO mapreduce.Job: Job job_1612977878001_0089 running in uber mode : false\
+2021-02-12 16:34:43,767 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:35:01,962 INFO mapreduce.Job:  map 2% reduce 0%\
+2021-02-12 16:35:08,018 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:35:13,088 INFO mapreduce.Job:  map 83% reduce 0%\
+2021-02-12 16:35:14,098 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:35:28,251 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:35:28,261 INFO mapreduce.Job: Job job_1612977878001_0089 completed successfully\
+2021-02-12 16:35:28,376 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679244\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=55748\
+		Total time spent by all reduces in occupied slots (ms)=11934\
+		Total time spent by all map tasks (ms)=55748\
+		Total time spent by all reduce tasks (ms)=11934\
+		Total vcore-milliseconds taken by all map tasks=55748\
+		Total vcore-milliseconds taken by all reduce tasks=11934\
+		Total megabyte-milliseconds taken by all map tasks=57085952\
+		Total megabyte-milliseconds taken by all reduce tasks=12220416\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=89\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=538968064\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:35:28,376 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz8\
+2021-02-12 16:35:29,420 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:35:31,410 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:35:31,558 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar1893797771015189437/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob1542603026789114784.jar tmpDir=null\
+2021-02-12 16:35:32,409 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:35:32,585 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:35:32,847 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0090\
+2021-02-12 16:35:33,414 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:35:33,631 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:35:33,870 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0090\
+2021-02-12 16:35:33,871 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:35:34,026 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:35:34,027 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:35:34,093 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0090\
+2021-02-12 16:35:34,122 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0090/\
+2021-02-12 16:35:34,124 INFO mapreduce.Job: Running job: job_1612977878001_0090\
+2021-02-12 16:35:41,219 INFO mapreduce.Job: Job job_1612977878001_0090 running in uber mode : false\
+2021-02-12 16:35:41,221 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:35:59,424 INFO mapreduce.Job:  map 67% reduce 0%\
+2021-02-12 16:36:01,449 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:36:13,552 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:36:15,576 INFO mapreduce.Job: Job job_1612977878001_0090 completed successfully\
+2021-02-12 16:36:15,667 INFO mapreduce.Job: Counters: 50\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679241\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Launched map tasks=2\
+		Launched reduce tasks=1\
+		Data-local map tasks=2\
+		Total time spent by all maps in occupied slots (ms)=36839\
+		Total time spent by all reduces in occupied slots (ms)=9554\
+		Total time spent by all map tasks (ms)=36839\
+		Total time spent by all reduce tasks (ms)=9554\
+		Total vcore-milliseconds taken by all map tasks=36839\
+		Total vcore-milliseconds taken by all reduce tasks=9554\
+		Total megabyte-milliseconds taken by all map tasks=37723136\
+		Total megabyte-milliseconds taken by all reduce tasks=9783296\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=94\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=538968064\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:36:15,669 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz9\
+2021-02-12 16:36:16,787 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+2021-02-12 16:36:18,911 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.\
+2021-02-12 16:36:19,075 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+packageJobJar: [/Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/mapper.py, /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/reducer.py, /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/hadoop-unjar5447153894861460518/] [] /var/folders/rv/ckx_4jf57794_8mlxlb3snvh0000gn/T/streamjob30543990031622099.jar tmpDir=null\
+2021-02-12 16:36:20,071 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:36:20,320 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /0.0.0.0:8032\
+2021-02-12 16:36:20,578 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/kamalal-mukhalalaty/.staging/job_1612977878001_0091\
+2021-02-12 16:36:21,104 INFO mapred.FileInputFormat: Total input files to process : 1\
+2021-02-12 16:36:21,327 INFO mapreduce.JobSubmitter: number of splits:2\
+2021-02-12 16:36:21,586 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612977878001_0091\
+2021-02-12 16:36:21,586 INFO mapreduce.JobSubmitter: Executing with tokens: []\
+2021-02-12 16:36:21,760 INFO conf.Configuration: resource-types.xml not found\
+2021-02-12 16:36:21,761 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.\
+2021-02-12 16:36:21,825 INFO impl.YarnClientImpl: Submitted application application_1612977878001_0091\
+2021-02-12 16:36:21,851 INFO mapreduce.Job: The url to track the job: http://localhost:8088/proxy/application_1612977878001_0091/\
+2021-02-12 16:36:21,853 INFO mapreduce.Job: Running job: job_1612977878001_0091\
+2021-02-12 16:36:29,974 INFO mapreduce.Job: Job job_1612977878001_0091 running in uber mode : false\
+2021-02-12 16:36:29,975 INFO mapreduce.Job:  map 0% reduce 0%\
+2021-02-12 16:36:48,149 INFO mapreduce.Job:  map 35% reduce 0%\
+2021-02-12 16:36:49,198 INFO mapreduce.Job:  map 51% reduce 0%\
+2021-02-12 16:36:54,257 INFO mapreduce.Job:  map 83% reduce 0%\
+2021-02-12 16:37:04,382 INFO mapreduce.Job:  map 100% reduce 0%\
+2021-02-12 16:37:09,439 INFO mapreduce.Job:  map 100% reduce 67%\
+2021-02-12 16:37:11,461 INFO mapreduce.Job:  map 100% reduce 100%\
+2021-02-12 16:37:12,485 INFO mapreduce.Job: Job job_1612977878001_0091 completed successfully\
+2021-02-12 16:37:12,572 INFO mapreduce.Job: Counters: 51\
+	File System Counters\
+		FILE: Number of bytes read=40938017\
+		FILE: Number of bytes written=82679238\
+		FILE: Number of read operations=0\
+		FILE: Number of large read operations=0\
+		FILE: Number of write operations=0\
+		HDFS: Number of bytes read=36942294\
+		HDFS: Number of bytes written=311\
+		HDFS: Number of read operations=11\
+		HDFS: Number of large read operations=0\
+		HDFS: Number of write operations=2\
+		HDFS: Number of bytes read erasure-coded=0\
+	Job Counters \
+		Killed map tasks=1\
+		Launched map tasks=3\
+		Launched reduce tasks=1\
+		Data-local map tasks=3\
+		Total time spent by all maps in occupied slots (ms)=62585\
+		Total time spent by all reduces in occupied slots (ms)=19457\
+		Total time spent by all map tasks (ms)=62585\
+		Total time spent by all reduce tasks (ms)=19457\
+		Total vcore-milliseconds taken by all map tasks=62585\
+		Total vcore-milliseconds taken by all reduce tasks=19457\
+		Total megabyte-milliseconds taken by all map tasks=64087040\
+		Total megabyte-milliseconds taken by all reduce tasks=19923968\
+	Map-Reduce Framework\
+		Map input records=1000000\
+		Map output records=1000000\
+		Map output bytes=38938011\
+		Map output materialized bytes=40938023\
+		Input split bytes=188\
+		Combine input records=0\
+		Combine output records=0\
+		Reduce input groups=8\
+		Reduce shuffle bytes=40938023\
+		Reduce input records=1000000\
+		Reduce output records=8\
+		Spilled Records=2000000\
+		Shuffled Maps =2\
+		Failed Shuffles=0\
+		Merged Map outputs=2\
+		GC time elapsed (ms)=101\
+		CPU time spent (ms)=0\
+		Physical memory (bytes) snapshot=0\
+		Virtual memory (bytes) snapshot=0\
+		Total committed heap usage (bytes)=535822336\
+	Shuffle Errors\
+		BAD_ID=0\
+		CONNECTION=0\
+		IO_ERROR=0\
+		WRONG_LENGTH=0\
+		WRONG_MAP=0\
+		WRONG_REDUCE=0\
+	File Input Format Counters \
+		Bytes Read=36942106\
+	File Output Format Counters \
+		Bytes Written=311\
+2021-02-12 16:37:12,573 INFO streaming.StreamJob: Output directory: /user/map_out_k8/clusterz10\
+2021-02-12 16:37:13,617 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+(base) ~> hdfs dfs -cat /user/map_out_k8/clusterz1/part-00000\
+^[[A2021-02-12 16:40:21,477 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+^[[A10.347363468559193, 15.115098555365353	\
+35.30927458507736, -0.08013926351270682	\
+9.57053951530449, 23.798866623700917	\
+50.32464271613772, 25.37051683699921	\
+7.444948232673019, 7.613325411988156	\
+49.96275849683369, 33.14543137998043	\
+35.73730821078248, 8.729663719498742	\
+22.181486068862707, 0.8034334798917647	\
+(base) ~> hdfs dfs -cat /user/map_out_k8/clusterz10/part-00000\
+2021-02-12 16:40:41,349 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+10.347363468559193, 15.115098555365353	\
+35.30927458507736, -0.08013926351270682	\
+9.57053951530449, 23.798866623700917	\
+50.32464271613772, 25.37051683699921	\
+7.444948232673019, 7.613325411988156	\
+49.96275849683369, 33.14543137998043	\
+35.73730821078248, 8.729663719498742	\
+22.181486068862707, 0.8034334798917647	\
+(base) ~> hdfs dfs -copyToLocal /user/map_out_k8 /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8\
+2021-02-12 16:41:02,871 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\
+(base) ~> }
