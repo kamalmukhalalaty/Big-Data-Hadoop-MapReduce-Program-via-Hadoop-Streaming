@@ -7,7 +7,7 @@ To do so, I orchestrated training iterations via a Bash script (run.sh) to pass 
 I hypothesise that there are 8 clusters and write my Bash script to only run-up to a maximum number of iterations.
 
 How to run the program (im my case):
-3. reset Centroids.txt with datapoints from Centroids000000.txt (initalize cluster centroids)
+1. reset Centroids.txt with datapoints from Centroids000000.txt (initalize cluster centroids)
 2. move data file to hdfs
 - hdfs dfs -copyFromLocal /Users/kamalal-mukhalalaty/Desktop/Kmeans_Assignment_1/K_means/K_8/data_points.txt /user/
 3. run the bash file (Orchistrator)
